@@ -1,0 +1,35 @@
+# Python Dictionaries and Hash Tables
+# Dictionaries in Python are used to store key-value pairs
+phone_numbers = {
+  'Aakash' : '9489484949',
+  'Hemanth' : '9595949494',
+  'Siddhant' : '9231325312'
+}
+phone_numbers
+
+phone_numbers['Aakash']
+
+# Add a new value
+phone_numbers['Vishal'] = '8787878787'
+# Update existing value
+phone_numbers['Aakash'] = '7878787878'
+# View the updated dictionary
+phone_numbers
+
+#Dictionaries in Python are implemented using a data structure called hash table. A hash table uses a list/array to store the key-value pairs, and uses a hashing function to determine the index for storing or retrieving the data associated with a given key.
+class HashTable:
+    def insert(self, key, value):
+        """Insert a new key-value pair"""
+        pass
+    
+    def find(self, key):
+        """Find the value associated with a key"""
+        pass
+    
+    def update(self, key, value):
+        """Change the value associated with a key"""
+        pass
+    
+    def list_all(self):
+        """List all the keys"""
+        pass
